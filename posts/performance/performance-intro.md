@@ -21,7 +21,7 @@ give you enough confidence to start **performance tuning** your software. Well a
 lets move to what is currently included in [performance hub](https://github.com/skodjob/database-performance-hub).
 
 ### Database Manipulation Tool
-Imagine the situation when you working on a product that supports multiple database engines and you
+Imagine the situation when you are working on a product that supports multiple database engines and if you
 would like to perform some tuning. Well, that sucks! You have to create different loads because
 most of the databases use different dialects. This is certainly not something that will encourage
 you in this action. Believe us we have been in this situation. Gladly we have a solution for you!

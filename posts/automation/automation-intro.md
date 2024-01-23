@@ -1,9 +1,9 @@
 ---
 
-title: Automation introduction
+title: What does automation-hub mean?
 menu_order: 1
 post_status: publish
-post_excerpt: This is a post excerpt
+post_excerpt: If you are interested in cool technologies for DevOps and automation like Ansible, Tekton, or ArgoCD, check out this introduction to our project.
 featured_image: _images/automation.jpg
 author: jstejskal
 taxonomy:
