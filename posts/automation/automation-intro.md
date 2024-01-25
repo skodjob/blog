@@ -52,3 +52,6 @@ All previous technologies were mostly about platform and DevOps practices, but n
 ArgoCD is GitOps tool for deploying Kubernetes applications from declarations stored in SCM.
 Basically if someone puts changes of application configuration into git repository, ArgoCD gets this changes and applies them to target Kubernetes cluster.
 All our systems under tests definitions are stored in [deployment-hub](https://github.com/skodjob/deployment-hub) repository and ArgoCD takes care about distributing them to multi-cluster environment.
+
+### Stay tuned!
+In our future posts, we'll be sharing our experiences with these technologies. We'll discuss the challenges we faced and how we tackled them along the way.
