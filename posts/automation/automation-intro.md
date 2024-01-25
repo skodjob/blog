@@ -5,7 +5,7 @@ menu_order: 1
 post_status: publish
 post_excerpt: If you are interested in cool technologies for DevOps and automation like Ansible, Tekton, or ArgoCD, check out this introduction to our project.
 featured_image: _images/automation.jpg
-author: dkornel
+author: kornys
 taxonomy:
     category:
         - automation
