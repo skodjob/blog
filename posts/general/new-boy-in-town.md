@@ -19,14 +19,14 @@ Our experience was mostly about spinning up Kubernetes cluster, deploying our pr
 That was enough for testing most of the features we introduced. However, at some point, it started to be a little bit boring, so we were thinking about some new challenge.
 
 ## Codename Teal'c
-During Covid-19 pandemic we spent a lot of time home and during that time one of the best TV series was online - Stargate SG-1.
-No worries, I am not going to promote the series or spoils the plot to you! 
+During the Covid-19 pandemic, we spent a lot of time at home and during that time one of the best TV series was online - Stargate SG-1.
+No worries, I am not going to promote the series or spoil the plot for you! 
 However, within our team, we liked Teal'c character, and then it started - let's start to work on something, and lets called it Teal'c!
 
 We started with an idea to test our projects in an environment that is more or less similar to what customers could be using.
 Our existing approach was fine for verifying features, but it was usually done in a small scale. 
 A lot of questions suddenly come to our minds like:
-- how the software behave when it will be running for several weeks/months?
+- how does the software behave when it will be running for several weeks/months?
 - how we can easily automate the deployment and upgrade process?
 - how upgrades of underlying architecture influences it?
 - actually, how users are using it? :O
