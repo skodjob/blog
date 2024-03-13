@@ -8,7 +8,7 @@ featured_image: _images/packer.jpg
 author: obabec
 ---
 
-You may know the **(Testing Farm)[https://docs.testing-farm.io]** from the [blog post](https://fedoramagazine.org/how-to-use-testing-farm-outside-of-rhel/) written by **[David Kornel](https://github.com/kornys)** and **[Jakub Stejskal](https://github.com/Frawless)**.
+You may know the **[Testing Farm](https://docs.testing-farm.io)** from the [blog post](https://fedoramagazine.org/how-to-use-testing-farm-outside-of-rhel/) written by **[David Kornel](https://github.com/kornys)** and **[Jakub Stejskal](https://github.com/Frawless)**.
 That blogpost highlighted the primary advantages of this testing system. 
 You should review those earlier **[posts](https://fedoramagazine.org/how-to-use-testing-farm-outside-of-rhel/)**, 
 as this blog entry will not go through the basics of the Testing Farm usage. 
