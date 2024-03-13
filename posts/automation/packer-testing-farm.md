@@ -71,7 +71,7 @@ Among the most interesting provisioners are:
 In the upcoming sections, we’ll explore practical examples and how Packer can enhance your image-building process.
 
 ## Debezium use-case
-So far, we have discussed the reasons for using custom images and why you should automatize the build, but how can you do that? 
+So far, we have discussed the reasons for using custom images and why you should automate the build, but how can you do that? 
 Let’s showcase this on the actual project!
 We onboarded Testing Farm with the Debezium project last year. 
 Debezium is the de facto industrial standard for **CDC (Change Data Capture)** streaming. 
@@ -161,12 +161,12 @@ Firstly, we have started working on the Ansible playbooks, installing everything
   - name: Pull Oracle images from official repository
     shell: |
       docker pull container-registry.oracle.com/database/free:23.3.0.0
-      when: use_custom|bool == false
+    when: use_custom|bool == false
     
   - name: Logout from registries
     shell: |
       docker logout quay.io
-      when: use_quay|bool == true
+    when: use_quay|bool == true
 ```
 
 As you can see, this playbook does everything:
@@ -176,8 +176,8 @@ As you can see, this playbook does everything:
 * Installing Maven and all other test suite dependencies
 * Pulling the image
 
-Once all those steps are finished, the machine should fully prepared to run the test suite and start the database, and we can create an image from this machine snapshot. Ok, now it’s time to look at the packer descriptor.
-```hcl
+Once all those steps are finished, the machine should be fully prepared to run the test suite and start the database, and we can create an image from this machine snapshot. Ok, now it’s time to look at the packer descriptor.
+```yaml
 # ami-build.pkr.hcl
 packer {
     required_plugins {
@@ -299,7 +299,7 @@ On top of that, you can see the definitions of all the variables.
 These are mostly just configuration or sensitive information. 
 Below, you can find the configuration of the Amazon plugin (this allows the AMI build). 
 You can see that besides casual configurations like secrets and regions, you also must pass source_ami.
-This field defines the base image for our build. For the Debezium, we are using CentOS Stream 8.
+This field defines the base image for our build. For Debezium, we are using CentOS Stream 8.
 
 The following important field is `ssh_username`. 
 That field can be very tricky because you can find more variants of the username for some distros. 
@@ -337,7 +337,7 @@ testing-farm-build
 └── bootstrap.sh
 ```
 
-Then, you just have to step into root directors (testing-farm-build) and start the build. 
+Then, you just have to step into the root directory (testing-farm-build) and start the build. 
 You can begin the packer build with the following command:
 ```shell
 packer build -var="aws_secret_key=${AWS_SECRET_ACCESS_KEY}" -var="aws_access_key=${AWS_ACCESS_KEY_ID}" -var="image_name=${AMI_NAME}" --var="aws_ssh_username=centos" . 
