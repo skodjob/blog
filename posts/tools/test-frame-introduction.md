@@ -42,7 +42,7 @@ is used inside the operator's repository), then you create a cyclic dependency, 
 with new things in the test classes, and the operator waits for the component to be released, so it can be included in the controller's code.
 The cyclic dependency is depicted on the following picture:
 
-![Cyclic redundancy](/_images/test-frame-introduction/test-frame-cyclic-redundancy.png) {.wp-post-image}
+![Cyclic redundancy](/_images/test-frame-introduction/test-frame-cyclic-redundancy.png)
 
 Or, you can have one repository for the test logic, that will be shared across multiple repositories, and thanks to that you will remove
 the cyclic dependency.
