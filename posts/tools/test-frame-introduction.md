@@ -147,5 +147,4 @@ redundancy when it comes to a project containing multiple repositories that need
 But Test-Frame, a library providing common helper methods for work with tests and objects running on Kubernetes, is here
 to help you with it.
 
-Let us know how you like the library or what you want to see next.
-Your feedback is welcome!
+New contributors are welcome to shape our project's future; share your thoughts on the library or suggest what's next – your feedback matters!
