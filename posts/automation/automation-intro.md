@@ -3,6 +3,7 @@
 title: What does automation-hub mean?
 menu_order: 1
 post_status: publish
+post_date: 2024-01-15 16:00:00
 post_excerpt: If you are interested in cool technologies for DevOps and automation like Ansible, Tekton, or ArgoCD, check out this introduction to our project.
 featured_image: _images/automation.jpg
 author: kornys
