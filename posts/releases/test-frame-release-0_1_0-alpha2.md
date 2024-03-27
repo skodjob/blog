@@ -3,7 +3,7 @@ title: Announcing Test-Frame 0.1.0-alpha2
 menu_order: 1
 post_status: publish
 post_excerpt: First release of Test-Frame is out!
-featured_image: _images/test-frame-0.1.1-alpha2-release.jpg
+featured_image: _images/test-frame-alpha2-release.jpg
 author: kornys
 taxonomy:
   category:
