@@ -2,6 +2,7 @@
 title: Announcing Test-Frame 0.1.0-alpha2
 menu_order: 1
 post_status: publish
+post_date: 2024-03-27 16:00:00
 post_excerpt: First release of Test-Frame is out!
 featured_image: _images/test-frame-alpha2-release.jpg
 author: kornys

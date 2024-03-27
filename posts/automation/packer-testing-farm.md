@@ -3,6 +3,7 @@
 title: Let’s improve Testing Farm experience for Debezium project! 
 menu_order: 1
 post_status: publish
+post_date: 2024-03-10 16:00:00
 post_excerpt: Looking for new possibilites of testing Open-Source projects? If yes, explore this blog post about Testing Farm and Packer synergy.
 featured_image: _images/packer.jpg
 author: obabec
