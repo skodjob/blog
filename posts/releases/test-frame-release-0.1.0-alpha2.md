@@ -2,7 +2,7 @@
 title: Announcing Test-Frame 0.1.0-alpha2
 menu_order: 1
 post_status: publish
-post_excerpt: First release Test-Frame is out!
+post_excerpt: First release of Test-Frame is out!
 featured_image: _images/test-frame-0.1.1-alpha2-release.jpg
 author: kornys
 taxonomy:
@@ -12,7 +12,7 @@ taxonomy:
 
 ## Announcing Test-Frame 0.1.0-alpha2: Elevate Your Testing Game
 
-We are thrilled to announce the latest release of Test-Frame, version 0.1.0-alpha2, a testament to our continuous effort to provide developers with a robust and intuitive testing framework that simplifies and accelerates the testing process.
+We are thrilled to announce the latest release of Test-Frame, version **0.1.0-alpha2**, a testament to our continuous effort to provide developers with a robust and intuitive testing framework that simplifies and accelerates the testing process.
 This release embodies our commitment to innovation, quality, and the open-source community.
 
 ### What's New in 0.1.0-alpha2?
@@ -20,11 +20,11 @@ The **0.1.0-alpha2** release introduces a suite of enhancements and new features
 
 #### Highlights of this release include:
 
-* KubeResourceManager for storing, managing and cleaning Kubernetes resources during test phase.
-* Kubernetes api client
+* `KubeResourceManager` for storing, managing, and cleaning Kubernetes resources during the test phase.
+* Kubernetes API client
 * Kubernetes command line client
 * Executor of command line commands
-* Kubernetes and Openshift resources implementation
+* Kubernetes and OpenShift resources implementation
 * Kubernetes utilities
 
 For a detailed list of changes and improvements, we encourage you to review the [release notes on GitHub](https://github.com/skodjob/test-frame/releases/tag/0.1.0-alpha2).
@@ -43,6 +43,6 @@ Whether you're submitting a bug report, proposing new features, or contributing 
 ### Looking Ahead
 
 The journey of Test-Frame is just beginning. As we celebrate the release of **0.1.0-alpha2**, our team is already hard at work planning future updates that will continue to enhance functionality, improve user experience, and support the evolving needs of developers.
-We're excited about the roadmap ahead and look forward to sharing more updates with you.
+We're excited about the roadmap, and we look forward to keeping you posted about further updates.
 
 Thank you for your support and interest in Test-Frame.
