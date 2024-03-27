@@ -12,7 +12,7 @@ taxonomy:
 
 ## Announcing Test-Frame 0.1.0-alpha2: Elevate Your Testing Game
 
-We are thrilled to announce the latest release of Test-Frame, version **0.1.0-alpha2**, a testament to our continuous effort to provide developers with a robust and intuitive testing framework that simplifies and accelerates the testing process.
+We are thrilled to announce the latest release of Test-Frame, version **0.1.0-alpha2**, a testament to our continuous effort to provide developers with a robust and intuitive testing library that simplifies and accelerates the testing process.
 This release embodies our commitment to innovation, quality, and the open-source community.
 
 ### What's New in 0.1.0-alpha2?
@@ -36,8 +36,8 @@ Learn about the philosophy behind Test-Frame, its core features, and how it can 
 
 ### Join the Test-Frame Community
 
-Test-Frame is more than just a testing tool; it's a growing community of developers passionate about quality software development.
-We invite you to join us on [GitHub](https://github.com/skodjob), where you can contribute to the project, share your feedback, and collaborate with fellow developers.
+Test-Frame is more than just a testing library; it's a growing community of developers passionate about quality software development.
+We invite you to join us on [GitHub](https://github.com/skodjob/test-frame), where you can contribute to the project, share your feedback, and collaborate with fellow developers.
 Whether you're submitting a bug report, proposing new features, or contributing code, your input is invaluable in shaping the future of Test-Frame.
 
 ### Looking Ahead
