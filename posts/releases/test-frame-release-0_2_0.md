@@ -53,7 +53,7 @@ The 0.2.0 release introduced several new features and enhancements:
   - Improved capabilities for managing Kubernetes resources during tests, including better handling of test dependencies and automatic cleanup.
 
 * Extended Metrics and Logging:
-  - Additional features in the MetricsCollector and LogCollector, providing more granular control and detailed insights into the Kubernetes environment and test execution.
+  - Additional features in the MetricsCollector and LogCollector provide more granular control and detailed insights into the Kubernetes environment and test execution.
 
 * Support for New Kubernetes Features:
   - Compatibility updates to support the latest Kubernetes features and APIs, ensuring Test-Frame remains relevant and up-to-date with the latest developments in the Kubernetes ecosystem.
