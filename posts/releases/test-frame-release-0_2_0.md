@@ -18,7 +18,7 @@ This blog post highlights the key updates and new functionalities added to Test-
 
 ### Enhanced Kubernetes Resource Management
 
-One of the major improvements is the enhancement of the KubeResourceManager.
+One of the significant improvements is the enhancement of the KubeResourceManager.
 This feature now ensures more efficient management of Kubernetes resources during tests.
 Resources created during the tests are automatically cleaned up, preventing leftover resources from cluttering the environment and ensuring a cleaner, more streamlined testing process.
 
