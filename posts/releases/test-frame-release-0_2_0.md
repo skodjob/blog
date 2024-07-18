@@ -26,7 +26,7 @@ Resources created during the tests are automatically cleaned up, preventing left
 
 Test-Frame now integrates seamlessly with the Fabric8 Kubernetes client and CMD client.
 These clients are initialized based on configuration files or environment variables, making it easier for developers to connect and interact with different Kubernetes clusters.
-This integration simplifies the process of setting up and managing Kubernetes environments for testing.
+This integration simplifies setting up and managing Kubernetes environments for testing.
 
 ### Advanced Metrics Collection
 
