@@ -65,7 +65,7 @@ This growing community highlights the library's robustness and utility in real-w
 
 ### Conclusion
 
-The updates and new features in Test-Frame since the 0.1.0-alpha2 release reflect a commitment to enhancing the testing experience for Kubernetes deployments and operators.
+The updates and new features in the Test-Frame since the 0.1.0-alpha2 release reflect a commitment to enhancing the testing experience for Kubernetes deployments and operators.
 With improved resource management, advanced metrics collection, better logging, and new utilities, Test-Frame continues to provide developers with powerful tools for efficient and effective testing.
 
 For more detailed documentation and examples, visit the [GitHub repository](https://github.com/skodjob/test-frame).
