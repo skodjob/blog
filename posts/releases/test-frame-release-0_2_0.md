@@ -42,7 +42,7 @@ This improvement makes it easier for developers to understand the state of their
 
 ### Utility and Tweaks for Better Interaction
 
-Various tweaks and utility enhancements have been made to improve interaction with Kubernetes clusters.
+Various tweaks and utility enhancements have improved interaction with Kubernetes clusters.
 These changes simplify complex tasks, making it easier for developers to manage their Kubernetes environments and run tests efficiently.
 
 ### New Features in 0.2.0
