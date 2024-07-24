@@ -2,7 +2,7 @@
 title: Data Generator Library for Streaming 0.2.0
 menu_order: 1
 post_status: publish
-post_date: 2024-07-23 09:00:00
+post_date: 2024-07-25 09:00:00
 post_excerpt: Release of Data-Generator 0.2.0 is out!
 featured_image: _images/data-generator-0_2_0-release.jpg
 author: kornys
