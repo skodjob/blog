@@ -5,7 +5,7 @@ post_status: publish
 post_date: 2024-07-25 09:00:00
 post_excerpt: Release of Data-Generator 0.2.0 is out!
 featured_image: _images/data-generator-0_2_0-release.jpg
-author: kornys
+author: jstejskal
 taxonomy:
   category:
     - releases
@@ -141,6 +141,6 @@ We plan to extend it based on our needs for reasonable data in our test environm
 Also, as a bonus you have also Avro schema that you can use in your registry to validate a messages against it.
 
 ## Conclusion
-Our current version is 0.2.0, and we are using it in Strimzi's test-clients implementation. 
+Our current version is 0.2.0, and we are using it in Strimzi's [test-clients](https://github.com/strimzi/test-clients) implementation. 
 The implementation is more or less for our needs, but in case you haven't heard about the data-faker library, it's something very useful for everyone! 
 If you need Kafka test clients with pre-defined data or your own, Strimzi's test-clients are a good start as well!
