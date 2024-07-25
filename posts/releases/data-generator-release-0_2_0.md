@@ -29,7 +29,7 @@ Data-faker is a great library that you can use to fake any kind of data in your 
 Since we mostly use Java, this library was our first choice for reasonably generating random data.
 
 The usage is pretty simple. Here's an example from the quick start guide:
-```Java
+```java
 import net.datafaker.Faker;
 
 Faker faker = new Faker();
@@ -45,7 +45,7 @@ Pretty handy, right? You can easily extend the input data for data-faker, which 
 
 For example, you can specify your own list of options in the code or extend the data through a YAML file.
 
-```Java
+```java
 FAKER.options().option("active", "inactive", "error");
 ```
 
@@ -57,7 +57,7 @@ Each template is based on an Apache Avro schema. Maven generates Java classes fr
 Then we use the generator itself in our client implementation, and voila—we have a reasonable message for our environment!
 
 As an example, consider the following schema (already implemented as part of the data-generator):
-```avroschema
+```json
 {
   "type": "record",
   "name": "StarGate",
@@ -99,7 +99,7 @@ As an example, consider the following schema (already implemented as part of the
 }
 ```
 Now, just fill the template with data:
-```Java
+```java
 public static String generateData() {
     StarGate starGate = new StarGate();
     starGate.setCharacterName(FAKER.stargate().characters());
