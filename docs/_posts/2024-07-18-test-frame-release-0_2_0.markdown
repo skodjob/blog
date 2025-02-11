@@ -1,14 +1,8 @@
 ---
+layout: post
 title: Updates and Enhancements in Test-Frame 0.2.0 Since Alpha Release
-menu_order: 1
-post_status: publish
-post_date: 2024-07-18 09:00:00
-post_excerpt: Release of Test-Frame 0.2.0 is out!
-featured_image: _images/test-frame-0_2_0-release.jpg
-author: kornys
-taxonomy:
-  category:
-    - releases
+date: 2024-07-18 09:00:00
+categories: release
 ---
 
 ## Updates and Enhancements in Test-Frame 0.2.0 Since Alpha Release
