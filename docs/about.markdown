@@ -1,16 +1,7 @@
 ---
-
-title: Welcome this little boy to the town
-menu_order: 1
-post_status: publish
-post_date: 2024-01-10 16:00:00
-post_excerpt: An introduction about us, our work and what we want to do in scope of Skodjob.io
-featured_image: _images/skodjob_intro.jpg
-author: jstejskal
-taxonomy:
-    category:
-        - general
-
+layout: page
+title: About
+permalink: /about/
 ---
 
 # Welcome this little boy to the town

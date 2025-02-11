@@ -1,14 +1,8 @@
 ---
+layout: post
 title: Make your testing easier with Test-Frame
-menu_order: 1
-post_status: publish
-post_date: 2024-03-23 16:00:00
-post_excerpt: Introduction to Test-Frame - what it is, why you should use it
-featured_image: _images/test-frame-introduction/test-frame-introduction.jpg
-author: lkral
-taxonomy:
-  category:
-    - tools
+date: 2024-03-23 16:00:00
+categories: tools
 ---
 
 ## Testing of applications running on Kubernetes
@@ -43,7 +37,7 @@ is used inside the operator's repository), then you create a cyclic dependency, 
 with new things in the test classes, and the operator waits for the component to be released, so it can be included in the controller's code.
 The cyclic dependency is depicted on the following picture:
 
-![Cyclic redundancy](/_images/test-frame-introduction/test-frame-cyclic-redundancy.png) {.wp-post-image}
+![Cyclic redundancy](/assets/test-frame-introduction/test-frame-cyclic-redundancy.png) {.wp-post-image}
 
 Or, you can have one repository for the test logic, that will be shared across multiple repositories, and thanks to that you will remove
 the cyclic dependency.
@@ -86,38 +80,14 @@ If you would like to try the Test-Frame in your test suite before it is released
 the GitHub's Maven repository and the Test-Frame dependency in your `pom.xml`:
 
 ```xml
-    <repositories>
-        <repository>
-            <id>test-frame</id>
-            <name>GitHub Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/skodjob/test-frame</url>
-        </repository>
-    </repositories>
-    <dependencies>
-        <dependency>
-            <groupId>io.skodjob</groupId>
-            <artifactId>test-frame-common</artifactId>
-            <version>0.1.0-SNAPSHOT</version>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
+    <dependency>
+        <groupId>io.skodjob</groupId>
+        <artifactId>test-frame-common</artifactId>
+        <version>0.10.0</version>
+    </dependency>
 ```
 where the `test-frame-common` module contains the core functionality - like the `KubeResourceManager`.
 Additionally, there are more modules that you can use and explore in our [GitHub repository](https://github.com/skodjob/test-frame).
-
-Because we are pulling a dependency from the GitHub Maven repository, we need to provide an additional configuration in the `settings.xml`:
-
-```xml
-<settings>
-    <servers>
-        <server>
-            <id>test-frame</id>
-            <username>x-access-token</username>
-            <password>${env.GITHUB_TOKEN}</password>
-        </server>
-    </servers>
-</settings>
-```
 
 Where the `id` of the server has to match with the `id` of the repository in the `pom.xml`.
 
@@ -130,7 +100,7 @@ class NamespaceCreationST {
     
     @Test
     void testThatNamespaceExists() {
-        KubeResourceManager.getInstance().createResourceWithWait(
+        KubeResourceManager.get().createResourceWithWait(
                 new NamespaceBuilder().withNewMetadata().withName("test").endMetadata().build());
         assertNotNull(KubeResourceManager.getKubeCmdClient().get("namespace", "test"));
     }
